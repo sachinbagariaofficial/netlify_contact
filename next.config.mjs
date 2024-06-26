@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    // Enable serverless target for Netlify
+    target: 'serverless',
+  };
+  
+  export default nextConfig;
+  
