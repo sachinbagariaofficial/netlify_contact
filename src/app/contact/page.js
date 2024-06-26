@@ -20,7 +20,7 @@ const Contact = () => {
       .then(() => setSubmitted(true))
       .catch((error) => console.error('Error:', error));
   };
-
+///
   return (
     <div>
       <h1>Contact Us</h1>
