@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    // Enable serverless target for Netlify
-    target: 'serverless',
+    // Add any custom Next.js configuration here if needed
   };
   
   export default nextConfig;
