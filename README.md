@@ -1,6 +1,4 @@
-This is a basic [Next.js](https://nextjs.org/) project that was bootstrapped with `yarn create next-app`.
-
-The `pages/index.js` file has been modified to contain a simple Contact form, that will utilize Netlify's built-in form handling capabilities. The form will not work on it's own without the Netlify build process. Refer to `pages/index.js` for the code, and [wheresbaldo.dev](https://wheresbaldo.dev/tech/nextjs/build-a-simple-contact-form-with-next-js-and-netlify) for the instructions and tutorial.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
@@ -12,12 +10,27 @@ npm run dev
 yarn dev
 # or
 pnpm dev
+# or
+bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the contact form.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can edit the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
-View the full tutorial on [wheresbaldo.dev](https://wheresbaldo.dev/tech/nextjs/build-a-simple-contact-form-with-next-js-and-netlify) for instructions on how to build this form from scratch.
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
